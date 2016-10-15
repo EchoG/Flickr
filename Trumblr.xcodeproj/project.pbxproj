@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14FC71D1DB2E78400217A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC71C1DB2E78400217A9D /* AppDelegate.swift */; };
+		A14FC71F1DB2E78400217A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC71E1DB2E78400217A9D /* ViewController.swift */; };
+		A14FC7221DB2E78400217A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7201DB2E78400217A9D /* Main.storyboard */; };
+		A14FC7241DB2E78400217A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7231DB2E78400217A9D /* Assets.xcassets */; };
+		A14FC7271DB2E78400217A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7251DB2E78400217A9D /* LaunchScreen.storyboard */; };
+		A14FC7321DB2E78400217A9D /* TrumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC7311DB2E78400217A9D /* TrumblrTests.swift */; };
+		A14FC73D1DB2E78400217A9D /* TrumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC73C1DB2E78400217A9D /* TrumblrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14FC72E1DB2E78400217A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14FC7111DB2E78400217A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14FC7181DB2E78400217A9D;
+			remoteInfo = Trumblr;
+		};
+		A14FC7391DB2E78400217A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14FC7111DB2E78400217A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14FC7181DB2E78400217A9D;
+			remoteInfo = Trumblr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14FC7191DB2E78400217A9D /* Trumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14FC71C1DB2E78400217A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14FC71E1DB2E78400217A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14FC7211DB2E78400217A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14FC7231DB2E78400217A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14FC7261DB2E78400217A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14FC7281DB2E78400217A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14FC72D1DB2E78400217A9D /* TrumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14FC7311DB2E78400217A9D /* TrumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumblrTests.swift; sourceTree = "<group>"; };
+		A14FC7331DB2E78400217A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14FC7381DB2E78400217A9D /* TrumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14FC73C1DB2E78400217A9D /* TrumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumblrUITests.swift; sourceTree = "<group>"; };
+		A14FC73E1DB2E78400217A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14FC7161DB2E78400217A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC72A1DB2E78400217A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC7351DB2E78400217A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14FC7101DB2E78400217A9D = {
+			isa = PBXGroup;
+			children = (
+				A14FC71B1DB2E78400217A9D /* Trumblr */,
+				A14FC7301DB2E78400217A9D /* TrumblrTests */,
+				A14FC73B1DB2E78400217A9D /* TrumblrUITests */,
+				A14FC71A1DB2E78400217A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14FC71A1DB2E78400217A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14FC7191DB2E78400217A9D /* Trumblr.app */,
+				A14FC72D1DB2E78400217A9D /* TrumblrTests.xctest */,
+				A14FC7381DB2E78400217A9D /* TrumblrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14FC71B1DB2E78400217A9D /* Trumblr */ = {
+			isa = PBXGroup;
+			children = (
+				A14FC71C1DB2E78400217A9D /* AppDelegate.swift */,
+				A14FC71E1DB2E78400217A9D /* ViewController.swift */,
+				A14FC7201DB2E78400217A9D /* Main.storyboard */,
+				A14FC7231DB2E78400217A9D /* Assets.xcassets */,
+				A14FC7251DB2E78400217A9D /* LaunchScreen.storyboard */,
+				A14FC7281DB2E78400217A9D /* Info.plist */,
+			);
+			path = Trumblr;
+			sourceTree = "<group>";
+		};
+		A14FC7301DB2E78400217A9D /* TrumblrTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14FC7311DB2E78400217A9D /* TrumblrTests.swift */,
+				A14FC7331DB2E78400217A9D /* Info.plist */,
+			);
+			path = TrumblrTests;
+			sourceTree = "<group>";
+		};
+		A14FC73B1DB2E78400217A9D /* TrumblrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14FC73C1DB2E78400217A9D /* TrumblrUITests.swift */,
+				A14FC73E1DB2E78400217A9D /* Info.plist */,
+			);
+			path = TrumblrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14FC7181DB2E78400217A9D /* Trumblr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14FC7411DB2E78400217A9D /* Build configuration list for PBXNativeTarget "Trumblr" */;
+			buildPhases = (
+				A14FC7151DB2E78400217A9D /* Sources */,
+				A14FC7161DB2E78400217A9D /* Frameworks */,
+				A14FC7171DB2E78400217A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trumblr;
+			productName = Trumblr;
+			productReference = A14FC7191DB2E78400217A9D /* Trumblr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14FC72C1DB2E78400217A9D /* TrumblrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14FC7441DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrTests" */;
+			buildPhases = (
+				A14FC7291DB2E78400217A9D /* Sources */,
+				A14FC72A1DB2E78400217A9D /* Frameworks */,
+				A14FC72B1DB2E78400217A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14FC72F1DB2E78400217A9D /* PBXTargetDependency */,
+			);
+			name = TrumblrTests;
+			productName = TrumblrTests;
+			productReference = A14FC72D1DB2E78400217A9D /* TrumblrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14FC7371DB2E78400217A9D /* TrumblrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14FC7471DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrUITests" */;
+			buildPhases = (
+				A14FC7341DB2E78400217A9D /* Sources */,
+				A14FC7351DB2E78400217A9D /* Frameworks */,
+				A14FC7361DB2E78400217A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14FC73A1DB2E78400217A9D /* PBXTargetDependency */,
+			);
+			name = TrumblrUITests;
+			productName = TrumblrUITests;
+			productReference = A14FC7381DB2E78400217A9D /* TrumblrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14FC7111DB2E78400217A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chenran Gong";
+				TargetAttributes = {
+					A14FC7181DB2E78400217A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A14FC72C1DB2E78400217A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A14FC7181DB2E78400217A9D;
+					};
+					A14FC7371DB2E78400217A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A14FC7181DB2E78400217A9D;
+					};
+				};
+			};
+			buildConfigurationList = A14FC7141DB2E78400217A9D /* Build configuration list for PBXProject "Trumblr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14FC7101DB2E78400217A9D;
+			productRefGroup = A14FC71A1DB2E78400217A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14FC7181DB2E78400217A9D /* Trumblr */,
+				A14FC72C1DB2E78400217A9D /* TrumblrTests */,
+				A14FC7371DB2E78400217A9D /* TrumblrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14FC7171DB2E78400217A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14FC7271DB2E78400217A9D /* LaunchScreen.storyboard in Resources */,
+				A14FC7241DB2E78400217A9D /* Assets.xcassets in Resources */,
+				A14FC7221DB2E78400217A9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC72B1DB2E78400217A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC7361DB2E78400217A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14FC7151DB2E78400217A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14FC71F1DB2E78400217A9D /* ViewController.swift in Sources */,
+				A14FC71D1DB2E78400217A9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC7291DB2E78400217A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14FC7321DB2E78400217A9D /* TrumblrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FC7341DB2E78400217A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14FC73D1DB2E78400217A9D /* TrumblrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14FC72F1DB2E78400217A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14FC7181DB2E78400217A9D /* Trumblr */;
+			targetProxy = A14FC72E1DB2E78400217A9D /* PBXContainerItemProxy */;
+		};
+		A14FC73A1DB2E78400217A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14FC7181DB2E78400217A9D /* Trumblr */;
+			targetProxy = A14FC7391DB2E78400217A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14FC7201DB2E78400217A9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14FC7211DB2E78400217A9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14FC7251DB2E78400217A9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14FC7261DB2E78400217A9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14FC73F1DB2E78400217A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A14FC7401DB2E78400217A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14FC7421DB2E78400217A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.Trumblr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A14FC7431DB2E78400217A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.Trumblr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A14FC7451DB2E78400217A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumblr.app/Trumblr";
+			};
+			name = Debug;
+		};
+		A14FC7461DB2E78400217A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumblr.app/Trumblr";
+			};
+			name = Release;
+		};
+		A14FC7481DB2E78400217A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trumblr;
+			};
+			name = Debug;
+		};
+		A14FC7491DB2E78400217A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trumblr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14FC7141DB2E78400217A9D /* Build configuration list for PBXProject "Trumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14FC73F1DB2E78400217A9D /* Debug */,
+				A14FC7401DB2E78400217A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14FC7411DB2E78400217A9D /* Build configuration list for PBXNativeTarget "Trumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14FC7421DB2E78400217A9D /* Debug */,
+				A14FC7431DB2E78400217A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A14FC7441DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14FC7451DB2E78400217A9D /* Debug */,
+				A14FC7461DB2E78400217A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A14FC7471DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14FC7481DB2E78400217A9D /* Debug */,
+				A14FC7491DB2E78400217A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14FC7111DB2E78400217A9D /* Project object */;
+}
