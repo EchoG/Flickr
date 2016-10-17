@@ -4,11 +4,9 @@
 target 'Trumblr' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  inhibit_all_warnings!
   
   # Pods for Trumblr
   pod 'AFNetworking', '~> 2.6'
-  pod 'MBProgressHUD'
 	
   target 'TrumblrTests' do
     inherit! :search_paths

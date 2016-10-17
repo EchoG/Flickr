@@ -20,16 +20,13 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
-  - MBProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 6098ecd5e10c9aa4474d21135f6557e7beda166c
+PODFILE CHECKSUM: d06fd09edc16de559ea5d43e032b2bfd0cec3b6a
 
 COCOAPODS: 1.0.1
