@@ -1,12 +1,18 @@
 # Flickr
 
-Time spent: 20 hours spent in total
+## Time spent: 25 hours spent in total
 
-Completed Functions:
-1. User can view a list of movies currently playing in theaters from The Movie Database.
-2. User can view movie details by tapping on a cell.
-3. User sees loading state while waiting for movies API.
+## Completed Functions:
+* [x] User can view a list of movies currently playing in theaters from The Movie Database.
+* [x] User can view movie details by tapping on a cell.
+* [x] User sees loading state while waiting for movies API.
 
-Notes:
-Xcode always has problems and it is totally stuck when trying to load my project, so I cannot take a video or GIF about it. I'm so sorry!
+## Video Walkthrough 
+Here's a walkthrough of implemented user stories:
 
+<img src='https://github.com/EchoG/Flickr/blob/master/Flickr.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes:
+Xcode always has problems and it is always kind of difficult to use sometimes><. I took a lot of time to fix the environment issue.
