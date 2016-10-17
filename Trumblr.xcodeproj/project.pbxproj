@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CBE9F50178B34980F67976C /* Pods_Trumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB372AF8A255B95D6EFF2F6E /* Pods_Trumblr.framework */; };
 		A14FC71D1DB2E78400217A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC71C1DB2E78400217A9D /* AppDelegate.swift */; };
-		A14FC71F1DB2E78400217A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC71E1DB2E78400217A9D /* ViewController.swift */; };
 		A14FC7221DB2E78400217A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7201DB2E78400217A9D /* Main.storyboard */; };
 		A14FC7241DB2E78400217A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7231DB2E78400217A9D /* Assets.xcassets */; };
 		A14FC7271DB2E78400217A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FC7251DB2E78400217A9D /* LaunchScreen.storyboard */; };
 		A14FC7321DB2E78400217A9D /* TrumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC7311DB2E78400217A9D /* TrumblrTests.swift */; };
 		A14FC73D1DB2E78400217A9D /* TrumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC73C1DB2E78400217A9D /* TrumblrUITests.swift */; };
+		A14FC74B1DB2F8AC00217A9D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FC71E1DB2E78400217A9D /* PhotosViewController.swift */; };
+		A16F65CC1DB438DD0068FCED /* PrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F65CB1DB438DD0068FCED /* PrototypeCell.swift */; };
+		A16F65CE1DB43AF40068FCED /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F65CD1DB43AF40068FCED /* PhotoDetailsViewController.swift */; };
+		A3F1D877F107FF4BA17F7233 /* Pods_TrumblrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDD4AFB52D24AB26F7B01E0 /* Pods_TrumblrTests.framework */; };
+		A81C98B7345747F582625220 /* Pods_TrumblrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90687FE15237333647B722FB /* Pods_TrumblrUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540C537E5204D53C352C61F0 /* Pods-TrumblrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumblrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumblrUITests/Pods-TrumblrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		791435B00C6637DD7EC1F586 /* Pods-Trumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trumblr/Pods-Trumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		90687FE15237333647B722FB /* Pods_TrumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B17E6EE09F65D880DE2CE5 /* Pods-TrumblrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumblrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumblrTests/Pods-TrumblrTests.release.xcconfig"; sourceTree = "<group>"; };
 		A14FC7191DB2E78400217A9D /* Trumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FC71C1DB2E78400217A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A14FC71E1DB2E78400217A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14FC71E1DB2E78400217A9D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A14FC7211DB2E78400217A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A14FC7231DB2E78400217A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14FC7261DB2E78400217A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		A14FC7381DB2E78400217A9D /* TrumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FC73C1DB2E78400217A9D /* TrumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumblrUITests.swift; sourceTree = "<group>"; };
 		A14FC73E1DB2E78400217A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16F65CB1DB438DD0068FCED /* PrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeCell.swift; sourceTree = "<group>"; };
+		A16F65CD1DB43AF40068FCED /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		AB372AF8A255B95D6EFF2F6E /* Pods_Trumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB2C8F30134CDF3DFC5B20C /* Pods-Trumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trumblr/Pods-Trumblr.release.xcconfig"; sourceTree = "<group>"; };
+		CA0D8434B7CDA8137620BB4A /* Pods-TrumblrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumblrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumblrTests/Pods-TrumblrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDDD4AFB52D24AB26F7B01E0 /* Pods_TrumblrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumblrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB47970CEA0EEFE70F9FF8B0 /* Pods-TrumblrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumblrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumblrUITests/Pods-TrumblrUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CBE9F50178B34980F67976C /* Pods_Trumblr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F1D877F107FF4BA17F7233 /* Pods_TrumblrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81C98B7345747F582625220 /* Pods_TrumblrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69DCF17296CFDD8A8F6239A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				791435B00C6637DD7EC1F586 /* Pods-Trumblr.debug.xcconfig */,
+				BDB2C8F30134CDF3DFC5B20C /* Pods-Trumblr.release.xcconfig */,
+				CA0D8434B7CDA8137620BB4A /* Pods-TrumblrTests.debug.xcconfig */,
+				92B17E6EE09F65D880DE2CE5 /* Pods-TrumblrTests.release.xcconfig */,
+				540C537E5204D53C352C61F0 /* Pods-TrumblrUITests.debug.xcconfig */,
+				FB47970CEA0EEFE70F9FF8B0 /* Pods-TrumblrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92AD91C45E3C87B384B7A236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB372AF8A255B95D6EFF2F6E /* Pods_Trumblr.framework */,
+				DDDD4AFB52D24AB26F7B01E0 /* Pods_TrumblrTests.framework */,
+				90687FE15237333647B722FB /* Pods_TrumblrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A14FC7101DB2E78400217A9D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				A14FC7301DB2E78400217A9D /* TrumblrTests */,
 				A14FC73B1DB2E78400217A9D /* TrumblrUITests */,
 				A14FC71A1DB2E78400217A9D /* Products */,
+				69DCF17296CFDD8A8F6239A3 /* Pods */,
+				92AD91C45E3C87B384B7A236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				A14FC71C1DB2E78400217A9D /* AppDelegate.swift */,
-				A14FC71E1DB2E78400217A9D /* ViewController.swift */,
+				A14FC71E1DB2E78400217A9D /* PhotosViewController.swift */,
+				A16F65CB1DB438DD0068FCED /* PrototypeCell.swift */,
 				A14FC7201DB2E78400217A9D /* Main.storyboard */,
 				A14FC7231DB2E78400217A9D /* Assets.xcassets */,
 				A14FC7251DB2E78400217A9D /* LaunchScreen.storyboard */,
 				A14FC7281DB2E78400217A9D /* Info.plist */,
+				A16F65CD1DB43AF40068FCED /* PhotoDetailsViewController.swift */,
 			);
 			path = Trumblr;
 			sourceTree = "<group>";
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A14FC7411DB2E78400217A9D /* Build configuration list for PBXNativeTarget "Trumblr" */;
 			buildPhases = (
+				8BA3A787A13C7E1BF26ED4B6 /* [CP] Check Pods Manifest.lock */,
 				A14FC7151DB2E78400217A9D /* Sources */,
 				A14FC7161DB2E78400217A9D /* Frameworks */,
 				A14FC7171DB2E78400217A9D /* Resources */,
+				FE7E519F4A85BD5C94434D0E /* [CP] Embed Pods Frameworks */,
+				B9B9B3D8E5F1D22055A540F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A14FC7441DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrTests" */;
 			buildPhases = (
+				6481E0D9450E41E84DED871A /* [CP] Check Pods Manifest.lock */,
 				A14FC7291DB2E78400217A9D /* Sources */,
 				A14FC72A1DB2E78400217A9D /* Frameworks */,
 				A14FC72B1DB2E78400217A9D /* Resources */,
+				20C6AEA1FC528A46EAE771C0 /* [CP] Embed Pods Frameworks */,
+				193720CC6AC952B2E1A3E397 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A14FC7471DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrUITests" */;
 			buildPhases = (
+				48D14C5350659438BAA8ED58 /* [CP] Check Pods Manifest.lock */,
 				A14FC7341DB2E78400217A9D /* Sources */,
 				A14FC7351DB2E78400217A9D /* Frameworks */,
 				A14FC7361DB2E78400217A9D /* Resources */,
+				D847480D1D9DD8118498D295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,18 +242,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Chenran Gong";
 				TargetAttributes = {
 					A14FC7181DB2E78400217A9D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					A14FC72C1DB2E78400217A9D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A14FC7181DB2E78400217A9D;
 					};
 					A14FC7371DB2E78400217A9D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = A14FC7181DB2E78400217A9D;
 					};
 				};
@@ -251,13 +308,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		193720CC6AC952B2E1A3E397 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumblrTests/Pods-TrumblrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20C6AEA1FC528A46EAE771C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumblrTests/Pods-TrumblrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D14C5350659438BAA8ED58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6481E0D9450E41E84DED871A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA3A787A13C7E1BF26ED4B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B9B3D8E5F1D22055A540F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumblr/Pods-Trumblr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D847480D1D9DD8118498D295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumblrUITests/Pods-TrumblrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7E519F4A85BD5C94434D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumblr/Pods-Trumblr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A14FC7151DB2E78400217A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14FC71F1DB2E78400217A9D /* ViewController.swift in Sources */,
+				A16F65CE1DB43AF40068FCED /* PhotoDetailsViewController.swift in Sources */,
+				A16F65CC1DB438DD0068FCED /* PrototypeCell.swift in Sources */,
 				A14FC71D1DB2E78400217A9D /* AppDelegate.swift in Sources */,
+				A14FC74B1DB2F8AC00217A9D /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +508,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -371,8 +555,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -391,74 +577,87 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A14FC7421DB2E78400217A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791435B00C6637DD7EC1F586 /* Pods-Trumblr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trumblr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.Trumblr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Trumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A14FC7431DB2E78400217A9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB2C8F30134CDF3DFC5B20C /* Pods-Trumblr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trumblr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.Trumblr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Trumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		A14FC7451DB2E78400217A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0D8434B7CDA8137620BB4A /* Pods-TrumblrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrumblrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumblr.app/Trumblr";
 			};
 			name = Debug;
 		};
 		A14FC7461DB2E78400217A9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B17E6EE09F65D880DE2CE5 /* Pods-TrumblrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TrumblrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumblr.app/Trumblr";
 			};
 			name = Release;
 		};
 		A14FC7481DB2E78400217A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540C537E5204D53C352C61F0 /* Pods-TrumblrUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrumblrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Trumblr;
 			};
 			name = Debug;
 		};
 		A14FC7491DB2E78400217A9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB47970CEA0EEFE70F9FF8B0 /* Pods-TrumblrUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TrumblrUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenrangong.TrumblrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Trumblr;
 			};
 			name = Release;
@@ -482,6 +681,7 @@
 				A14FC7431DB2E78400217A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A14FC7441DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +690,7 @@
 				A14FC7461DB2E78400217A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A14FC7471DB2E78400217A9D /* Build configuration list for PBXNativeTarget "TrumblrUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +699,7 @@
 				A14FC7491DB2E78400217A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
